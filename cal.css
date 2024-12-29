@@ -7,55 +7,53 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
+    padding: 1%;
 }
-
-div {
-    background-color: #ffffff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+div{
+border: 1px solid black;
+border-radius: 10px;
+padding: 25px;
+box-shadow: 0px 0px 10px 10px  rgba(0, 0, 0, 0.2);
+background-color: #f0f0f0;
 }
-
-/* Table Styles */
-table {
+table{
     border: 1px solid black;
     border-collapse: collapse;
-    margin: 0 auto;
+    border-radius: 10px;
 }
-
-#dikh {
+#dikh{
     height: 50px;
     font-size: 1.5em;
     text-align: right;
     padding: 10px;
     background-color: #f9f9f9;
-    border: 1px solid #ddd;
+    border: 1px solid #020202;
 }
-
-td {
+td{
     width: 55px;
     height: 55px;
     text-align: center;
     font-size: 1.2em;
     font-weight: bold;
     background-color: #e0e0e0;
-    border-radius: 5px;
+    border-radius: 10px;
     cursor: pointer;
     transition: background-color 0.3s;
 }
-
-/* Special Buttons */
-td:nth-child(4) {
+td:nth-child(4){
     background-color: #3fdeb9dd;
     color: #ffffff;
 }
 
- td:hover {
+td:hover {
     background-color: #e67e22;
 }
 #dikh {
     color: #333;
-} 
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+
 
 
 
