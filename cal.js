@@ -10,7 +10,7 @@ let soln=()=>{
     let display = document.querySelector("#dikh");
     display.innerHTML=eval(blnk);
     blnk=eval(blnk);
-    blnk.toString();
+    blnk=blnk.toString();
 }
 let zeroo=()=>{
     let display = document.querySelector("#dikh");
