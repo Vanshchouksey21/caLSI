@@ -22,22 +22,22 @@ let last=()=>{
     let display = document.querySelector("#dikh");
     display.innerHTML=blnk;
 }
-let sq=()=>{
-    let display = document.querySelector("#dikh")
-    blnk=blnk*blnk;
-    display.innerHTML=blnk;
-}
+// let sq=()=>{
+//     let display = document.querySelector("#dikh")
+//     blnk=blnk*blnk;
+//     display.innerHTML=blnk;
+// }
 
 
-let cube=()=>{
-    let display = document.querySelector("#dikh")
-    blnk=blnk*blnk*blnk;
-    display.innerHTML=blnk;
-    blnk.toString();
-}
-let multi=()=>{
-    let display = document.querySelector("#dikh")
-    blnk=blnk*10;
-    display.innerHTML=blnk;
-    blnk.toString();
-}
+// let cube=()=>{
+//     let display = document.querySelector("#dikh")
+//     blnk=blnk*blnk*blnk;
+//     display.innerHTML=blnk;
+//     blnk.toString();
+// }
+// let multi=()=>{
+//     let display = document.querySelector("#dikh")
+//     blnk=blnk*10;
+//     display.innerHTML=blnk;
+//     blnk.toString();
+// }
