@@ -41,3 +41,11 @@ let last=()=>{
 //     display.innerHTML=blnk;
 //     blnk.toString();
 // }
+
+
+let isname=true;
+setInterval(()=>{
+    let display = document.querySelector("#vansh")
+    display.innerHTML=isname?"v.calsi":"hello "
+    isname= !isname
+},2000)
